@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FB;
+    font-family: 'Karla';
+    font-style: normal;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.start-page{
+    display: flex;
+    flex-direction: column;
+    padding: 218px 70px 184px 68px;
+    align-items: center;
+    
+}
+.start-title{
+    color:#293264;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+    margin: 0 auto;
+    
+}
+
+.start-desc{
+    color:#293264;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.start-btn{
+    width: 193px;
+    height: 52px;
+    background: #4D5B9E;
+    border-radius: 15px;
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+
+.blue-blob{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.yellow-blob{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.quiz-page{
+    display: flex;
+    flex-direction: column;
+    
+}
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 95px;
+    margin-right: 168px;
+    margin-bottom: 15px;
+    
+}
+.quiz-answer-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz-question{
+    margin: 12px auto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color:#293264;
+}
+
+.quiz-answer{
+    min-width: 58.77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height:15px;
+    border: 0.794239px solid #4D5B9E;
+    border-radius: 7.94239px;
+    background: white;
+    color: #293264;
+    margin: 0px 6px;
+    cursor:pointer;
+}
+
+.reset-btn{
+    background: #4D5B9E;
+    border-radius: 10px;
+    margin: 30px auto 0px auto;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.24px;
+    line-height: 12px;
+    text-align: center;
+    border:none;
+    color: white;
+    width: 120px;
+    height: 35px;
+    cursor:pointer;
+}
+
+.score{
+    margin: 30px auto 0px auto;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.24px;
+    line-height: 12px;
+    text-align: center;
+    border:none;
+    color: black;
+}
