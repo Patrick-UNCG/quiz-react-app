@@ -2,8 +2,6 @@ import React from "react"
 import Quiz from "./Quiz"
 import {nanoid} from "nanoid"
 import "./style.css"
-import blueBlob from './images/blob5.png'
-import yellowBlob from './images/yeller.png'
 
 export default function App(){
     const [allQuestions, setAllQuestions] = React.useState([])
@@ -123,18 +121,14 @@ export default function App(){
     return (<main>
         {startPage ? 
         <div className = "start-page">
-            <h1 className = "start-title">Quizzical</h1> 
-            <h3 className = "start-desc">A quiz game</h3>
+            <h1 className = "start-title">Gamequiz</h1> 
+            <h3 className = "start-desc">A video game quiz</h3>
             <button className = "start-btn" onClick={startButton}>Start quiz</button>
-            <img src={blueBlob} className="blue-blob" alt="a blue blob"/>
-            <img src={yellowBlob} className="yellow-blob" alt="a yellow blob" />
         </div> 
         : 
         <div className = "quiz-page">
-          {quizElements}
-          <img src = {yellowBlob} className = "yellow-blob" alt="a yellow blob"/>
-          <img src = {blueBlob} className = "blue-blob" alt="a blue blob"/>
           <h3 className = "score">Score: {score} / 5</h3>
+          {quizElements}
           <button className="reset-btn" onClick={reset}>Reset</button>
         </div>
              }
